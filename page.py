@@ -27,7 +27,8 @@ class Page:
             
     def remove_table(self):
         try:
-            self.soup.find("table").extract()
+            for t in self.soup.find_all("table"):
+                t.extract()
         except:
             pass
     

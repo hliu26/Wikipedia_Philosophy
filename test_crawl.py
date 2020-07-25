@@ -32,7 +32,7 @@ def main():
     if len(hop_list) == 0:
         print("Mean number of hops cannot be calculated/n")
     else:
-        print("Mean number of hops:", str(sum(hop_list) / len(hop_list)),"/n")
+        print("Mean number of hops:", str(sum(hop_list) / len(hop_list)),"\n")
     
 if __name__ == "__main__":
     main()
